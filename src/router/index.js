@@ -15,7 +15,8 @@ import SettingAkun from '../views/ResellerArea/SettingAkun.vue'
 import SetGoals from '../views/ResellerArea/SetGoals.vue'
 import IncomeReseller from '../views/ResellerArea/IncomeReseller.vue'
 import Dzikir from '../views/CatalogView/Dzikir.vue'
-import Penukaran from '../views/CatalogView/Penukaran.vue'
+import Refund from '../views/CatalogView/Refund.vue'
+import Retur from '../views/CatalogView/Retur.vue'
 
 Vue.use(VueRouter)
 
@@ -96,9 +97,14 @@ const routes = [
     component: Dzikir
   },
   {
-    path: '/penukaran',
-    name: 'Penukaran',
-    component: Penukaran
+    path: '/refund',
+    name: 'Refund',
+    component: Refund
+  },
+  {
+    path: '/retur',
+    name: 'Retur',
+    component: Retur
   },
 ]
 
