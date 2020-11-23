@@ -38,9 +38,9 @@
                         <input type="text" placeholder="Cari Produk" class="rounded-full px-3 py-2 placeholder-gray-700 text-gray-700 relative bg-white text-md shadow outline-none focus:outline-none focus:shadow-outline w-full pl-10"/>
                     </div>
                     <div class="flex-grow">
-                        <div class="flex items-center justify-center bg-orange-400 rounded-full w-10 h-10">
+                        <button class="flex items-center justify-center bg-orange-400 rounded-full w-10 h-10 focus:outline-none">
                             <img src="@/assets/icon-menu.svg">
-                       </div>
+                       </button>
                     </div>
                 </div>
             </div>
@@ -58,9 +58,9 @@
                 <div class="col-span-1">
                     <h1 class="text-gray-900 text-base font-semibold capitalize">produk </h1>
                 </div>
-                <div class="col-span-1"> 
+                <button class="col-span-1 focus:outline-none"> 
                     <h1 class="text-orange-400 text-right">lihat semua</h1>
-                </div>
+                </button>
             </div>
             
                 <div class="flex flex-wrap mx-3 my-8">
@@ -85,9 +85,9 @@
                                 <h1 class="col-span-1 text-xs ml-6 mr-2 mt-1"> 4.5</h1>
                             </div>
                             <div class="flex flex-wrap mx-6 mt-2">
-                                <div class="w-full py-1 px-2 bg-green-500 rounded-full flex items-center justify-center"> 
+                                <button class="w-full py-1 px-2 bg-green-500 rounded-full flex items-center justify-center focus:ouline-none"> 
                                     <h1 class="text-white text-sm text-center" style="margin-top: -1px;">Rp59.000</h1>
-                                </div>
+                                </button>
                             </div>
                         </div>
                     </div>

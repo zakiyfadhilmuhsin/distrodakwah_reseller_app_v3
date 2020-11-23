@@ -65,7 +65,7 @@
             <div class="flex flex-col mx-5">
                <h1 class="text-sm text-gray-800 capitalize -mt-2">catatan :</h1>
                <div class="bg-white border border-2 w-full mt-3 rounded">
-                   <textarea class="resize-none w-full h-32 px-2" name="text" id="" cols="30" rows="10" placeholder="masukan keterangan lainnya diini"> </textarea>
+                   <textarea class="text-sm resize-none w-full h-32 px-2" name="text" id="" cols="30" rows="10" placeholder="masukan keterangan lainnya diini"> </textarea>
                </div>
                <div class="flex flex justify-end mt-5">
                    <button class="text-sm text-white bg-orange-400 rounded px-5 py-1">minta retur</button>

@@ -3,8 +3,8 @@
         <div class="mobile-view bg-white">
             <!-- navbar -->
             <div class="flex">
-                <button class="w-1/6 my-5">
-                    <img class="w-8 h-6 mt-1 mx-5" src="@/assets/arrow-left.svg" alt="">
+                <button class="w-1/6 my-5 focus:outline-none">
+                    <img class="w-6 mt-1 mx-5" src="@/assets/arrow-left.svg" alt="">
                 </button>
                 <div class="w-5/6 my-5">
                     <h1 class="text-lg font-semibold capitalize ml-20">
@@ -49,14 +49,14 @@
                     </div>  
                     <div class="row-span-1 w-20">
                         <div class="flex justify-end">
-                            <button class="bg-white border border-gray-300 h-5 w-5 flex-item-center justify-center">
+                            <button class="bg-white border border-gray-300 h-5 w-5 flex-item-center justify-center focus:outline-none">
                                 <svg class="w-3 h-3 mx-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                                     <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" fill="black"/>
                                 </svg>
                             </button>
                             <!-- <input class="h-10 w-10 text-center justify-center px-3 mx-1 rounded"> -->
                             <h2 class="h-5 w-5 text-center text-xs justify-center font-semibold mx-1"> 1 </h2>
-                            <button class="bg-white border border-gray-300 h-5 w-5">
+                            <button class="bg-white border border-gray-300 h-5 w-5 focus:outline-none">
                                 <svg class="w-3 h-3 mx-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg); margin-top: 1px;" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                                     <path d="M19 13H5v-2h14v2z" fill="black"/>
                                 </svg>
@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div class="bg-orange-400 mx-5 my-3 py-1 rounded">
-                <button class="flex w-full">
+                <button class="flex w-full focus:outline-none">
                     <h1 class="text-white text-lg ml-20 mr-8 my-auto uppercase"> bayar sekarang </h1>
                     <svg class="w-8 h-8 my-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg); margin-top: 3px;" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
                         <path d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6l-1.41-1.42z" fill="white"/>

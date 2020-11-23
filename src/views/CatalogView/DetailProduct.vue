@@ -3,9 +3,9 @@
         <div class="mobile-view bg-white">
            <!-- navbar -->
             <div class="bg-blue-900 rounded-b-3xl shadow-lg">
-                <div class="grid grid-cols-3 mx-3 pt-4">
+                <div class="grid grid-cols-3 mx-3 pt-3 pb-1">
                     <div class="col-span-1 w-12">
-                        <img class="w-8 h-6 mt-1 mx-5" src="@/assets/arrow-left-white.svg" alt="">
+                        <img class="w-6 h-6 mt-1 mx-5" src="@/assets/arrow-left-white.svg" alt="">
                     </div>
                     <div class="col-span-1 w-56 -ml-12">
                         <h1 class="text-white text-lg text-center font-semibold capitalize" style="margin-top: 1px;">

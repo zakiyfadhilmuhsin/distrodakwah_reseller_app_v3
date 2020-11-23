@@ -4,7 +4,7 @@
             <!-- navbar -->
             <div class="flex">
                 <button class="w-1/6 my-5">
-                    <img class="w-8 h-6 mt-1 mx-5" src="@/assets/arrow-left.svg" alt="">
+                    <img class="w-6 h-6 mt-1 mx-5" src="@/assets/arrow-left.svg" alt="">
                 </button>
                 <div class="w-5/6 my-5">
                     <h1 class="text-base font-semibold capitalize ml-20 mt-1">
@@ -93,6 +93,7 @@
                     </div>
                 </div> 
             </div>
+            <br/>
         </div>
     </div>
 </template>

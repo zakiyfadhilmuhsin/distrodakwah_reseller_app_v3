@@ -68,7 +68,7 @@
                    <textarea class="text-sm resize-none w-full h-32 px-2" name="text" id="" cols="30" rows="10" placeholder="masukan keterangan lainnya disini..."> </textarea>
                </div>
                <div class="flex flex justify-end mt-5">
-                   <button class="text-sm text-white bg-orange-400 rounded px-5">minta refund</button>
+                   <button class="text-sm text-white bg-orange-400 rounded px-5 py-1">minta refund</button>
                </div>
             </div>
         </div>
