@@ -51,42 +51,49 @@
             <div class="bg-gray-100 h-2"></div>
             <!--  -->
             <div class="divide-y divide-gray-400 my-4">
-                <div class="flex ml-5 mb-4">
-                    <img class="mr-5 mt-3 w-6" src="@/assets/icon-katalog.svg" alt="">
-                    <h1 class="mr-10 mt-3 w-56 capitalize text-gray-800 font-semibold">download katalog</h1>
-                    <img class="mt-3" src="@/assets/arrow.svg" alt="">
-                </div>
-                <div class="flex ml-16 mb-3">
-                    <img class="mr-5 mt-3 w-6" style="margin-left: -43px;" src="@/assets/icon-kursus.svg" alt="">
-                    <h1 class="mr-10 mt-3 w-56 capitalize text-gray-800 font-semibold">Kursus Bisnis Online</h1>
-                    <img class="mt-3" src="@/assets/arrow.svg" alt="">
-                </div>
-                <div class="flex ml-16 mb-3">
+                <router-link to="/PencairanDana">
+                <button class="flex ml-16 mb-3 focus:outline-none">
                     <img class="mr-5 mt-3 w-6" style="margin-left: -43px;" src="@/assets/icon-webreplika.svg" alt="">
-                    <h1 class="mr-10 mt-3 w-56 capitalize text-gray-800 font-semibold">web replika</h1>
+                    <h1 class="mr-10 mt-3 w-56 capitalize text-left text-gray-800 font-semibold">Pencairan Dana</h1>
                     <img class="mt-3" src="@/assets/arrow.svg" alt="">
-                </div>
-                <div class="flex ml-16 mb-3">
+                </button>
+                </router-link>
+                <button class="flex ml-5 mb-4 focus:outline-none">
+                    <img class="mr-5 mt-3 w-6" src="@/assets/icon-katalog.svg" alt="">
+                    <h1 class="mr-10 mt-3 w-56 capitalize text-left text-gray-800 font-semibold">download katalog</h1>
+                    <img class="mt-3" src="@/assets/arrow.svg" alt="">
+                </button>
+                <button class="flex ml-16 mb-3 focus:outline-none">
+                    <img class="mr-5 mt-3 w-6" style="margin-left: -43px;" src="@/assets/icon-kursus.svg" alt="">
+                    <h1 class="mr-10 mt-3 w-56 capitalize text-left text-gray-800 font-semibold">Kursus Bisnis Online</h1>
+                    <img class="mt-3" src="@/assets/arrow.svg" alt="">
+                </button>
+                <button class="flex ml-16 mb-3 focus:outline-none">
+                    <img class="mr-5 mt-3 w-6" style="margin-left: -43px;" src="@/assets/icon-webreplika.svg" alt="">
+                    <h1 class="mr-10 mt-3 w-56 capitalize text-left text-gray-800 font-semibold">web replika</h1>
+                    <img class="mt-3" src="@/assets/arrow.svg" alt="">
+                </button>
+                <button class="flex ml-16 mb-3 focus:outline-none">
                     <img class="mr-5 mt-3 w-6" style="margin-left: -43px;" src="@/assets/icon-setgoals.svg" alt="">
                     <h1 class="mr-20 mt-3 capitalize text-gray-800 font-semibold">set goals</h1>
                     <h1 class="bg-blue-400 px-2 mr-6 mt-3 rounded-md text-sm text-white font-semibold italic">new feature</h1>
                     <img class="mt-3" src="@/assets/arrow.svg" alt="">
-                </div>
-                <div class="flex ml-16 mb-3">
+                </button>
+                <button class="flex ml-16 mb-3 focus:outline-none">
                     <img class="mr-5 mt-3 w-6" style="margin-left: -43px;" src="@/assets/icon-voucher.svg" alt="">
                     <h1 class="mr-8 mt-3 capitalize text-gray-800 font-semibold">voucher promo</h1>
                     <h1 class="bg-yellow-400 px-2 mr-6 mt-3 rounded-md text-sm font-semibold italic">coming soon</h1>
                     <img class="mt-3" src="@/assets/arrow.svg" alt="">
-                </div>
-                <div class="flex ml-16 mb-3">
-                    <img class="mr-5 mt-3 w-6   " style="margin-left: -43px;" src="@/assets/icon-bantuan.svg" alt="">
-                    <h1 class="mr-10 mt-3 w-56 capitalize text-gray-800 font-semibold">bantuan</h1>
+                </button>
+                <button class="flex ml-16 mb-3 focus:outline-none">
+                    <img class="mr-5 mt-3 w-6" style="margin-left: -43px;" src="@/assets/icon-bantuan.svg" alt="">
+                    <h1 class="mr-10 mt-3 w-56 capitalize text-left text-gray-800 font-semibold">bantuan</h1>
                     <img class="mt-3" src="@/assets/arrow.svg" alt="">
-                </div>
+                </button>
                 <div class="flex ml-16 mb-4"></div>
             </div>
             <div class="mx-5 mt-8">
-                <button class="bg-white border py-2 w-full rounded-full font-bold" style="border-color: red; color: red;">
+                <button class="bg-white border py-2 w-full rounded-full font-bold focus:outline-none" style="border-color: red; color: red;">
                     keluar
                 </button>
             </div>
