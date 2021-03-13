@@ -20,7 +20,9 @@
                 <h1 class="text-white text-sm capitalize mt-1"> hadiah </h1>
             </div>
             <div class="row-span-1 bg-white h-12 w-12 rounded-full">
-                <img class="mt-3 ml-3" src="@/assets/Dzikir.svg" alt="">
+                <router-link to="/dzikir">
+                    <img class="mt-3 ml-3" src="@/assets/Dzikir.svg" alt="">
+                </router-link>
             </div>
             <div class="row-span-1">
                 <h1 class="text-white text-sm capitalize mt-1"> dzikir </h1>

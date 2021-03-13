@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="grid grid-rows-2 grid-flow-col mx-5 py-5">
-            <div class="row-span-2 w-12"> 
+            <div class="row-span-2 w-12">
                 <img class="mt-1" src="@/assets/logo.svg" alt="">
             </div>
             <div class="row-span-1 col-span-2 bg-white w-48"> 
@@ -15,8 +15,10 @@
                 </h1>
             </div>
             <div class="row-span-2 w-10">
-                <img class="mt-3" src="@/assets/cart2.svg" alt="">
-                <span class="cart-quantity"></span>
+                <router-link to="/cart">
+                    <img class="mt-3" src="@/assets/cart2.svg" alt="">
+                    <span class="cart-quantity"></span>
+                </router-link>
             </div>
             <div class="row-span-2 w-10">
                 <img class="mt-3 ml-1" src="@/assets/notif.svg" alt="">

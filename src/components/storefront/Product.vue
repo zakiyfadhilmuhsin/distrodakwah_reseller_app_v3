@@ -17,6 +17,7 @@
                         </svg>
                     </div>
                 </div>
+                <router-link to="/detailproduct">
                 <div class="grid grid-cols-4">
                     <img class="col-span-4 h-40 w-40 rounded-t-lg" src="@/assets/1.jpg" alt="">
                     <h1 class="col-span-4 text-sm text-white font-semibold font-sans mx-2 mt-2">HDY222 - Solusi</h1>
@@ -29,6 +30,7 @@
                     </div>
                     <h1 class="col-span-1 text-xs text-white ml-3 mr-2"> 4.5</h1>
                 </div>   
+                </router-link>
             </div>
             <div class="col-span-1 bg-orange-600 h-56 rounded-lg">
                 <div class="flex justify-end mx-2">
@@ -38,6 +40,7 @@
                         </svg>
                     </div>
                 </div>
+                <router-link to="/detailproduct">
                 <div class="grid grid-cols-4">
                     <img class="col-span-4 h-40 w-40 rounded-t-lg" src="@/assets/6.png" alt="">
                     <h1 class="col-span-4 text-sm text-white font-semibold font-sans mx-2 mt-2">HDY222 - Solusi</h1>
@@ -49,7 +52,8 @@
                         </svg>
                     </div>
                     <h1 class="col-span-1 text-xs text-white ml-3 mr-2"> 4.5</h1>
-                </div>   
+                </div>
+                </router-link>   
             </div>
         </div>
     </div>
